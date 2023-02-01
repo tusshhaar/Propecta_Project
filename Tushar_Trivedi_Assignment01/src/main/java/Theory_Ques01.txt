@@ -1,0 +1,21 @@
+To tackle the challenge, I would write a program that reads the CSV input, parses each line to identify values and formulas, 
+evaluates the formulas, and outputs the result as a new CSV file. Here's an overview of the steps I would follow:
+
+a. We can read the CSV file line by line. or there is another way to read all at once.
+
+b. Split each line using the comma separator.
+
+c. Identify if each value is a number or a formula for "=" we can say that this is for formulae.
+
+d. If it is a number store it in a dictionary with its corresponding cell name as the key.
+
+e. If it is a formula parse the formula to identify the cells it references and their values.
+
+f. Evaluate the formula by replacing the cell references with their values and using standard arithmetic operations.
+
+g. Store the result in the dictionary with the corresponding cell label as the key.
+
+h. Repeat the above steps for all lines in the CSV input.
+
+i. Write the dictionary to a new CSV file with the same structure as the input.
+

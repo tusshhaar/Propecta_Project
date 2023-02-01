@@ -1,0 +1,15 @@
+Implement secure authentication methods such as OAuth, API keys etc to ensure that only authorized users can access the API. 
+
+We can use SSL/TLS to check that the sensitive data is transfer securely over the network or not.
+
+Validate all user inputs to prevent security threats such as SQL injection, cross-site request forgery (CSRF).
+
+Limit the number of API requests made by a user within a specified time frame to prevent abuse and protect the API from overuse.
+
+Implement robust error handling to ensure that the API continues to function even in the case of failures or errors.
+
+Implement monitoring and logging mechanisms to detect and respond to security incidents and monitor the API's performance.
+
+Plan for disaster recovery by implementing backup and restore mechanisms, as well as business continuity planning.
+
+Provide clear and comprehensive API documentation for consumers to ensure that the API is used correctly.

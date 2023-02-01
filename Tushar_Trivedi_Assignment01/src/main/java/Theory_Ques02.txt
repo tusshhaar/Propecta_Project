@@ -1,0 +1,11 @@
+I would check for the following errors:
+
+a. Syntax errors in the formulas (e.g. missing operator, incorrect cell reference).
+
+b. Circular references in the formulas i.e a cell references another cell that references it back.
+
+c. Missing cell references in the formulas.
+
+d. Division by zero errors in the formulas.
+
+e. We can handle the exception also with appropriate exception handler.
