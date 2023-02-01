@@ -40,8 +40,8 @@ public class EntryController {
 		return list;
 
 	}
-	
-	public String saveEntry(MyEntry entry){
+	@PostMapping("/entry")
+	public String saveEntry(@RequestBody MyEntry entry){
 		
 		MyData d = restTemplate.getForObject("https://api.publicapis.org/entries", MyData.class);
 		
